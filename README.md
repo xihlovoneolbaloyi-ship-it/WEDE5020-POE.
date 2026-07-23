@@ -170,7 +170,7 @@ Contains:
 
 # Folder Structure
 
----
+```
 WEDE5020-POE/
 │
 ├── index.html
