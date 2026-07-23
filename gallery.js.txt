@@ -1,0 +1,145 @@
+/* ==========================================
+   File: gallery.js
+   Description: Image Gallery & Lightbox
+========================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const galleryImages = document.querySelectorAll(".gallery img");
+
+    if (galleryImages.length === 0) return;
+
+    /* ======================================
+       Create Lightbox
+    ====================================== */
+
+    const lightbox = document.createElement("div");
+    lightbox.id = "lightbox";
+
+    lightbox.innerHTML = `
+        <span id="closeBtn">&times;</span>
+        <button id="prevBtn">&#10094;</button>
+        <img id="lightboxImage" src="" alt="Gallery Image">
+        <button id="nextBtn">&#10095;</button>
+    `;
+
+    document.body.appendChild(lightbox);
+
+    const lightboxImage = document.getElementById("lightboxImage");
+    const closeBtn = document.getElementById("closeBtn");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let currentIndex = 0;
+
+    /* ======================================
+       Open Image
+    ====================================== */
+
+    function showImage(index) {
+
+        currentIndex = index;
+
+        lightbox.style.display = "flex";
+
+        lightboxImage.src = galleryImages[index].src;
+
+        lightboxImage.alt = galleryImages[index].alt;
+
+    }
+
+    galleryImages.forEach((image, index) => {
+
+        image.style.cursor = "pointer";
+
+        image.addEventListener("click", () => {
+
+            showImage(index);
+
+        });
+
+    });
+
+    /* ======================================
+       Close
+    ====================================== */
+
+    closeBtn.addEventListener("click", () => {
+
+        lightbox.style.display = "none";
+
+    });
+
+    lightbox.addEventListener("click", (e) => {
+
+        if (e.target === lightbox) {
+
+            lightbox.style.display = "none";
+
+        }
+
+    });
+
+    /* ======================================
+       Next Image
+    ====================================== */
+
+    nextBtn.addEventListener("click", () => {
+
+        currentIndex++;
+
+        if (currentIndex >= galleryImages.length) {
+
+            currentIndex = 0;
+
+        }
+
+        showImage(currentIndex);
+
+    });
+
+    /* ======================================
+       Previous Image
+    ====================================== */
+
+    prevBtn.addEventListener("click", () => {
+
+        currentIndex--;
+
+        if (currentIndex < 0) {
+
+            currentIndex = galleryImages.length - 1;
+
+        }
+
+        showImage(currentIndex);
+
+    });
+
+    /* ======================================
+       Keyboard Controls
+    ====================================== */
+
+    document.addEventListener("keydown", (event) => {
+
+        if (lightbox.style.display !== "flex") return;
+
+        switch (event.key) {
+
+            case "Escape":
+                lightbox.style.display = "none";
+                break;
+
+            case "ArrowRight":
+                nextBtn.click();
+                break;
+
+            case "ArrowLeft":
+                prevBtn.click();
+                break;
+
+        }
+
+    });
+
+});

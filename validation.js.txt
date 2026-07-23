@@ -1,0 +1,150 @@
+/* ==========================================
+   File: validation.js
+   Description: Client-side Form Validation
+========================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const form = document.getElementById("contactForm");
+
+    if (!form) return;
+
+    form.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        // Input Fields
+        const fullName = document.getElementById("fullName");
+        const email = document.getElementById("email");
+        const phone = document.getElementById("phone");
+        const subject = document.getElementById("subject");
+        const message = document.getElementById("message");
+
+        // Remove previous errors
+        clearErrors();
+
+        let valid = true;
+
+        /* ===============================
+           Full Name Validation
+        =============================== */
+
+        if (fullName.value.trim() === "") {
+            showError(fullName, "Full name is required.");
+            valid = false;
+        } else if (fullName.value.trim().length < 3) {
+            showError(fullName, "Name must contain at least 3 characters.");
+            valid = false;
+        }
+
+        /* ===============================
+           Email Validation
+        =============================== */
+
+        const emailPattern =
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (email.value.trim() === "") {
+            showError(email, "Email address is required.");
+            valid = false;
+        } else if (!emailPattern.test(email.value.trim())) {
+            showError(email, "Please enter a valid email address.");
+            valid = false;
+        }
+
+        /* ===============================
+           Phone Validation
+        =============================== */
+
+        const phonePattern =
+            /^[0-9+\-\s]{10,15}$/;
+
+        if (phone.value.trim() === "") {
+            showError(phone, "Phone number is required.");
+            valid = false;
+        } else if (!phonePattern.test(phone.value.trim())) {
+            showError(phone, "Please enter a valid phone number.");
+            valid = false;
+        }
+
+        /* ===============================
+           Subject Validation
+        =============================== */
+
+        if (subject.value.trim() === "") {
+            showError(subject, "Subject is required.");
+            valid = false;
+        }
+
+        /* ===============================
+           Message Validation
+        =============================== */
+
+        if (message.value.trim() === "") {
+            showError(message, "Message is required.");
+            valid = false;
+        } else if (message.value.trim().length < 20) {
+            showError(
+                message,
+                "Message must contain at least 20 characters."
+            );
+            valid = false;
+        }
+
+        /* ===============================
+           Success
+        =============================== */
+
+        if (valid) {
+
+            alert("Thank you! Your message has been submitted successfully.");
+
+            form.reset();
+
+        }
+
+    });
+
+});
+
+/* ==========================================
+   Display Error Message
+========================================== */
+
+function showError(input, message) {
+
+    const error = document.createElement("small");
+
+    error.className = "error-message";
+
+    error.style.color = "#d62828";
+
+    error.style.display = "block";
+
+    error.style.marginTop = "5px";
+
+    error.textContent = message;
+
+    input.parentNode.appendChild(error);
+
+    input.style.border = "2px solid #d62828";
+
+}
+
+/* ==========================================
+   Remove Error Messages
+========================================== */
+
+function clearErrors() {
+
+    document
+        .querySelectorAll(".error-message")
+        .forEach(error => error.remove());
+
+    document
+        .querySelectorAll("input, textarea")
+        .forEach(input => {
+            input.style.border = "";
+        });
+
+}
