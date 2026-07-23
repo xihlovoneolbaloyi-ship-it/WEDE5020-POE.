@@ -170,70 +170,43 @@ Contains:
 
 # Folder Structure
 
-```
-
-SweetCrumbsBakery/
-
+---
+WEDE5020-POE/
 │
-
 ├── index.html
-
 ├── about.html
-
-├── products.html
-
 ├── services.html
-
 ├── gallery.html
-
-├── enquiry.html
-
 ├── contact.html
-
-├── README.md
-
 │
-
 ├── css/
-
-│   └── style.css
-
+│   ├── style.css
+│   ├── responsive.css
+│   └── animations.css
 │
-
 ├── js/
-
-│   └── script.js
-
+│   ├── script.js
+│   ├── validation.js
+│   └── gallery.js
 │
-
-└── images/
-
-\&#x20;   ├── hero/
-
-\&#x20;   ├── about/
-
-\&#x20;   ├── cakes/
-
-\&#x20;   ├── cupcakes/
-
-\&#x20;   ├── bread/
-
-\&#x20;   ├── pastries/
-
-\&#x20;   ├── cookies/
-
-\&#x20;   ├── services/
-
-\&#x20;   ├── bakery/
-
-\&#x20;   ├── team/
-
-\&#x20;   ├── gallery/
-
-\&#x20;   ├── icons/
-
-\&#x20;   └── logo/
-
+├── images/
+│   ├── hero.jpg
+│   ├── about.jpg
+│   ├── gallery1.jpg
+│   ├── gallery2.jpg
+│   ├── gallery3.jpg
+│   ├── logo.png
+│   └── favicon.ico
+│
+├── docs/
+│   ├── ProjectProposal.docx
+│   ├── Sitemap.pdf
+│   ├── Wireframes.pdf
+│   ├── Research.pdf
+│   └── TestingReport.docx
+│
+├── README.md
+└── LICENSE
 ```
 
 ---
