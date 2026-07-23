@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ==========================================
+         Sweet Crumbs Bakery
+         Gallery Page
+    =========================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sweet Crumbs Bakery | Gallery</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>Sweet Crumbs Bakery</h1>
+
+        <p>Freshly Baked Happiness Every Day</p>
+
+        <!-- Navigation Menu -->
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About Us</a>
+
+            <a href="products.html">Products</a>
+
+            <a href="services.html">Services</a>
+
+            <a href="gallery.html">Gallery</a>
+
+            <a href="enquiry.html">Enquiry</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- Introduction -->
+
+        <section>
+
+            <h2>Our Gallery</h2>
+
+            <p>
+                Browse some of our freshly baked cakes, cupcakes,
+                breads, pastries and cookies. Every product is
+                handcrafted with quality ingredients and prepared
+                with care by our experienced bakers.
+            </p>
+
+        </section>
+
+        <!-- Cakes -->
+
+        <section>
+
+            <h2>🎂 Celebration Cakes</h2>
+
+            <div class="gallery">
+
+                <img src="images/cakes/chocolate-cake.jpg" alt="Chocolate Cake">
+
+                <img src="images/cakes/vanilla-cake.jpg" alt="Vanilla Cake">
+
+                <img src="images/cakes/red-velvet.jpg" alt="Red Velvet Cake">
+
+                <img src="images/cakes/wedding-cake.jpg" alt="Wedding Cake">
+
+            </div>
+
+        </section>
+
+        <!-- Cupcakes -->
+
+        <section>
+
+            <h2>🧁 Cupcakes</h2>
+
+            <div class="gallery">
+
+                <img src="images/cupcakes/vanilla-cupcakes.jpg" alt="Vanilla Cupcakes">
+
+                <img src="images/cupcakes/chocolate-cupcakes.jpg" alt="Chocolate Cupcakes">
+
+                <img src="images/cupcakes/mixed-cupcakes.jpg" alt="Mixed Cupcakes">
+
+                <img src="images/cupcakes/rainbow-cupcakes.jpg" alt="Rainbow Cupcakes">
+
+            </div>
+
+        </section>
+
+        <!-- Bread -->
+
+        <section>
+
+            <h2>🍞 Fresh Bread</h2>
+
+            <div class="gallery">
+
+                <img src="images/bread/white-bread.jpg" alt="White Bread">
+
+                <img src="images/bread/brown-bread.jpg" alt="Brown Bread">
+
+                <img src="images/bread/garlic-bread.jpg" alt="Garlic Bread">
+
+                <img src="images/bread/artisan-bread.jpg" alt="Artisan Bread">
+
+            </div>
+
+        </section>
+
+        <!-- Pastries -->
+
+        <section>
+
+            <h2>🥐 Pastries</h2>
+
+            <div class="gallery">
+
+                <img src="images/pastries/croissant.jpg" alt="Croissant">
+
+                <img src="images/pastries/danish.jpg" alt="Fruit Danish">
+
+                <img src="images/pastries/muffin.jpg" alt="Blueberry Muffin">
+
+                <img src="images/pastries/puff-pastry.jpg" alt="Puff Pastry">
+
+            </div>
+
+        </section>
+
+        <!-- Cookies -->
+
+        <section>
+
+            <h2>🍪 Cookies</h2>
+
+            <div class="gallery">
+
+                <img src="images/cookies/chocolate-chip.jpg" alt="Chocolate Chip Cookies">
+
+                <img src="images/cookies/oatmeal.jpg" alt="Oatmeal Cookies">
+
+                <img src="images/cookies/butter-cookies.jpg" alt="Butter Cookies">
+
+                <img src="images/cookies/assorted-cookies.jpg" alt="Assorted Cookies">
+
+            </div>
+
+        </section>
+
+        <!-- Bakery Interior -->
+
+        <section>
+
+            <h2>🏪 Inside Our Bakery</h2>
+
+            <div class="gallery">
+
+                <img src="images/bakery/shop-front.jpg" alt="Bakery Front">
+
+                <img src="images/bakery/interior.jpg" alt="Bakery Interior">
+
+                <img src="images/bakery/display.jpg" alt="Cake Display">
+
+                <img src="images/bakery/team.jpg" alt="Bakery Team">
+
+            </div>
+
+        </section>
+
+        <!-- Call to Action -->
+
+        <section>
+
+            <h2>Love What You See?</h2>
+
+            <p>
+                Visit our bakery or place an online enquiry today.
+                We look forward to baking something special for you.
+            </p>
+
+            <a href="enquiry.html" class="btn">
+                Order Now
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p><strong>Sweet Crumbs Bakery</strong></p>
+
+        <p>Johannesburg CBD | Sandton</p>
+
+        <p>Phone: (011) 123-4567</p>
+
+        <p>Email: info@sweetcrumbsbakery.co.za</p>
+
+        <p>Facebook | Instagram | WhatsApp</p>
+
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+
+    </footer>
+
+    <!-- External JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

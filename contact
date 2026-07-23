@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs Bakery | Contact Us</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked Happiness Every Day</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <!-- Contact Information -->
+        <section>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                We'd love to hear from you! Whether you have a question,
+                want to place a custom cake order, or need catering for
+                your event, our friendly team is ready to assist.
+            </p>
+
+        </section>
+
+        <!-- Branch Locations -->
+        <section>
+
+            <h2>Our Bakery Locations</h2>
+
+            <div class="product-grid">
+
+                <!-- Johannesburg Branch -->
+                <div class="product-card">
+
+                    <h3>🏪 Johannesburg CBD Branch</h3>
+
+                    <p><strong>Address:</strong><br>
+                        125 Main Street<br>
+                        Johannesburg CBD<br>
+                        Johannesburg, 2001
+                    </p>
+
+                    <p><strong>Phone:</strong> (011) 123-4567</p>
+
+                    <p><strong>Email:</strong><br>
+                        cbd@sweetcrumbsbakery.co.za
+                    </p>
+
+                </div>
+
+                <!-- Sandton Branch -->
+                <div class="product-card">
+
+                    <h3>🏪 Sandton Branch</h3>
+
+                    <p><strong>Address:</strong><br>
+                        Nelson Mandela Square<br>
+                        Sandton City<br>
+                        Johannesburg, 2196
+                    </p>
+
+                    <p><strong>Phone:</strong> (011) 987-6543</p>
+
+                    <p><strong>Email:</strong><br>
+                        sandton@sweetcrumbsbakery.co.za
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Business Hours -->
+        <section>
+
+            <h2>Business Hours</h2>
+
+            <table>
+
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Hours</th>
+                </tr>
+
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>08:00 - 18:00</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+                    <td>08:00 - 16:00</td>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>09:00 - 14:00</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+
+            <h2>Send Us a Message</h2>
+
+            <form>
+
+                <label for="name"><strong>Full Name</strong></label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="email"><strong>Email Address</strong></label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label for="subject"><strong>Subject</strong></label>
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject">
+
+                <label for="message"><strong>Your Message</strong></label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Type your message..."
+                    required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- Google Maps -->
+        <section>
+
+            <h2>Find Us</h2>
+
+            <p>
+                Google Maps can be embedded below for each bakery branch.
+            </p>
+
+            <!-- Johannesburg Map -->
+            <iframe
+                src="https://www.google.com/maps?q=Johannesburg+CBD&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+
+            <br><br>
+
+            <!-- Sandton Map -->
+            <iframe
+                src="https://www.google.com/maps?q=Sandton+City&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p><strong>Sweet Crumbs Bakery</strong></p>
+
+        <p>Johannesburg CBD | Sandton</p>
+
+        <p>Phone: (011) 123-4567</p>
+
+        <p>Email: info@sweetcrumbsbakery.co.za</p>
+
+        <p>Facebook | Instagram | WhatsApp</p>
+
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

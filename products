@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs Bakery | Products</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked Happiness Every Day</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <section>
+
+            <h2>Our Bakery Menu</h2>
+
+            <p>
+                At Sweet Crumbs Bakery, we bake fresh every day using quality
+                ingredients. Browse our range of delicious cakes, breads,
+                pastries, cupcakes, and cookies.
+            </p>
+
+        </section>
+
+        <!-- Cakes -->
+        <section>
+
+            <h2>🎂 Celebration Cakes</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="images/cakes/chocolate-cake.jpg" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich chocolate sponge layered with chocolate buttercream.</p>
+                    <h4>R320</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cakes/vanilla-cake.jpg" alt="Vanilla Cake">
+                    <h3>Vanilla Celebration Cake</h3>
+                    <p>Classic vanilla sponge with smooth vanilla frosting.</p>
+                    <h4>R300</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cakes/red-velvet.jpg" alt="Red Velvet Cake">
+                    <h3>Red Velvet Cake</h3>
+                    <p>Moist red velvet cake topped with cream cheese icing.</p>
+                    <h4>R350</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Cupcakes -->
+        <section>
+
+            <h2>🧁 Cupcakes</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="images/cupcakes/vanilla-cupcakes.jpg" alt="Vanilla Cupcakes">
+                    <h3>Vanilla Cupcakes</h3>
+                    <p>Soft vanilla cupcakes with colourful buttercream icing.</p>
+                    <h4>R180 / Dozen</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cupcakes/chocolate-cupcakes.jpg" alt="Chocolate Cupcakes">
+                    <h3>Chocolate Cupcakes</h3>
+                    <p>Chocolate cupcakes topped with rich chocolate frosting.</p>
+                    <h4>R190 / Dozen</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cupcakes/mixed-cupcakes.jpg" alt="Mixed Cupcakes">
+                    <h3>Mixed Cupcakes</h3>
+                    <p>A selection of our most popular cupcake flavours.</p>
+                    <h4>R200 / Dozen</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Bread -->
+        <section>
+
+            <h2>🍞 Artisan Bread</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="images/bread/white-bread.jpg" alt="White Bread">
+                    <h3>White Bread</h3>
+                    <p>Freshly baked soft white loaf.</p>
+                    <h4>R35</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/bread/brown-bread.jpg" alt="Brown Bread">
+                    <h3>Brown Bread</h3>
+                    <p>Healthy whole wheat loaf baked daily.</p>
+                    <h4>R38</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/bread/garlic-bread.jpg" alt="Garlic Bread">
+                    <h3>Garlic Bread</h3>
+                    <p>Fresh bread infused with garlic butter and herbs.</p>
+                    <h4>R55</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Pastries -->
+        <section>
+
+            <h2>🥐 Pastries</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="images/pastries/croissant.jpg" alt="Croissant">
+                    <h3>Butter Croissant</h3>
+                    <p>Light, flaky croissant baked fresh every morning.</p>
+                    <h4>R28</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/pastries/danish.jpg" alt="Danish Pastry">
+                    <h3>Fruit Danish</h3>
+                    <p>Flaky pastry filled with seasonal fruit.</p>
+                    <h4>R32</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/pastries/muffin.jpg" alt="Blueberry Muffin">
+                    <h3>Blueberry Muffin</h3>
+                    <p>Soft muffin packed with juicy blueberries.</p>
+                    <h4>R30</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Cookies -->
+        <section>
+
+            <h2>🍪 Cookies</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="images/cookies/chocolate-chip.jpg" alt="Chocolate Chip Cookies">
+                    <h3>Chocolate Chip Cookies</h3>
+                    <p>Crunchy outside with a soft chocolate centre.</p>
+                    <h4>R65 / Pack</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cookies/oatmeal.jpg" alt="Oatmeal Cookies">
+                    <h3>Oatmeal Cookies</h3>
+                    <p>Healthy homemade oatmeal cookies.</p>
+                    <h4>R60 / Pack</h4>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cookies/butter-cookies.jpg" alt="Butter Cookies">
+                    <h3>Butter Cookies</h3>
+                    <p>Classic buttery biscuits perfect with tea or coffee.</p>
+                    <h4>R55 / Pack</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Call to Action -->
+        <section>
+
+            <h2>Place Your Order Today!</h2>
+
+            <p>
+                Looking for something special? We create custom cakes and desserts
+                for birthdays, weddings, baby showers, anniversaries, and corporate
+                events.
+            </p>
+
+            <a href="enquiry.html" class="btn">Request a Quote</a>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p><strong>Sweet Crumbs Bakery</strong></p>
+
+        <p>Johannesburg CBD | Sandton</p>
+
+        <p>Phone: (011) 123-4567</p>
+
+        <p>Email: info@sweetcrumbsbakery.co.za</p>
+
+        <p>Follow us on Facebook | Instagram | WhatsApp</p>
+
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

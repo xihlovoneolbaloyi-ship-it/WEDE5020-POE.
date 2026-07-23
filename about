@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs Bakery | About Us</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked Happiness Every Day</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <!-- About -->
+        <section>
+
+            <h2>About Sweet Crumbs Bakery</h2>
+
+            <img src="images/about/bakery.jpg"
+                 alt="Sweet Crumbs Bakery"
+                 style="width:100%; max-width:800px; border-radius:10px;">
+
+            <p>
+                Sweet Crumbs Bakery is a family-owned bakery located in Johannesburg,
+                South Africa. Established in 2018, the bakery began as a small
+                home-based business with a passion for creating fresh, high-quality
+                baked goods. Through dedication, creativity, and exceptional customer
+                service, Sweet Crumbs Bakery has grown into a trusted local bakery
+                serving individuals, families, schools, and businesses.
+            </p>
+
+            <p>
+                We take pride in preparing every product with premium ingredients,
+                ensuring freshness, great taste, and beautiful presentation.
+                From artisan breads to custom celebration cakes, our bakery is
+                committed to making every occasion memorable.
+            </p>
+
+        </section>
+
+        <!-- Mission -->
+        <section>
+
+            <h2>Our Mission</h2>
+
+            <p>
+                To provide freshly baked, high-quality products made with premium
+                ingredients while delivering exceptional customer service at
+                affordable prices.
+            </p>
+
+        </section>
+
+        <!-- Vision -->
+        <section>
+
+            <h2>Our Vision</h2>
+
+            <p>
+                To become Johannesburg's most trusted bakery by combining quality,
+                creativity, and outstanding customer experiences while embracing
+                innovation through online services.
+            </p>
+
+        </section>
+
+        <!-- Values -->
+        <section>
+
+            <h2>Our Core Values</h2>
+
+            <ul>
+                <li>Quality in every product</li>
+                <li>Excellent customer service</li>
+                <li>Fresh ingredients every day</li>
+                <li>Creativity and innovation</li>
+                <li>Integrity and honesty</li>
+                <li>Community involvement</li>
+            </ul>
+
+        </section>
+
+        <!-- Team -->
+        <section>
+
+            <h2>Meet Our Team</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+
+                    <img src="images/team/owner.jpg"
+                         alt="Owner">
+
+                    <h3>Sarah Nkosi</h3>
+
+                    <p><strong>Owner & Head Baker</strong></p>
+
+                    <p>
+                        Sarah founded Sweet Crumbs Bakery with a passion
+                        for baking and creating memorable desserts for
+                        every celebration.
+                    </p>
+
+                </div>
+
+                <div class="product-card">
+
+                    <img src="images/team/baker.jpg"
+                         alt="Baker">
+
+                    <h3>Michael Dlamini</h3>
+
+                    <p><strong>Pastry Chef</strong></p>
+
+                    <p>
+                        Michael specialises in artisan breads,
+                        pastries, and handcrafted desserts.
+                    </p>
+
+                </div>
+
+                <div class="product-card">
+
+                    <img src="images/team/customer-service.jpg"
+                         alt="Customer Service">
+
+                    <h3>Lerato Mokoena</h3>
+
+                    <p><strong>Customer Relations</strong></p>
+
+                    <p>
+                        Lerato ensures every customer receives
+                        friendly service and assistance with
+                        custom orders.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Why Choose Us -->
+        <section>
+
+            <h2>Why Customers Choose Us</h2>
+
+            <ul>
+
+                <li>Freshly baked every morning</li>
+
+                <li>Custom cakes for birthdays, weddings and events</li>
+
+                <li>Affordable pricing</li>
+
+                <li>Friendly and experienced staff</li>
+
+                <li>High-quality ingredients</li>
+
+                <li>Reliable online enquiry service</li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p><strong>Sweet Crumbs Bakery</strong></p>
+
+        <p>Johannesburg CBD | Sandton</p>
+
+        <p>Phone: (011) 123-4567</p>
+
+        <p>Email: info@sweetcrumbsbakery.co.za</p>
+
+        <p>
+            Follow us on Facebook | Instagram | WhatsApp
+        </p>
+
+        <p>
+            &copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
